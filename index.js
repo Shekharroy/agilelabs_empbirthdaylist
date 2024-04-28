@@ -87,7 +87,7 @@ $(document).ready(function () {
   function createPost(employee) {
     var postHTML = `
           <div class="post">
-            <img src="${employee.image}" width="300" class="empImage"  alt="${
+            <img src="${employee.image}" width="300" class="empImage img-fluid"  alt="${
       employee.name
     }" class="img-fluid">
             <h4>${employee.name}</h4>
